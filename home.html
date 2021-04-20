@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nikhil Warrier | home</title>
+	<!-- Fonts,Favicon,CSSconnect -->
+                 <link rel="icon"  href="https://wgvc.com.au/wp-content/uploads/2019/07/profile-blank.png">
+                 <link rel="preconnect" href="https://fonts.gstatic.com">
+                 <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
+                 <link rel="preconnect" href="https://fonts.gstatic.com">
+                 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="Nikhil.css">
+</head>
+<body>
+<!-- Navbar -->
+<div id="navbar">
+  <a href="home.html">Home</a>
+  <a href="aboutme.html">About Nikhil</a>
+  <a href="apage1.html">Assignment Page 1</a>
+   
+  <a href="apage2.html">Assignment Page 2</a>
+  <a href="apage3.html">Assignment Page 3</a>
+  
+  
+<!-- Home Page -->
+</div>
+<h1>Nikhil Warrier</h1>
+<h2>Website Info</h2>
+<p>Hello, and welcome to Nikhil's page! </p> 
+
+<p>In this website, key information about Nikhil Warrier will be adressed, including the subjects he is currently studying, his hobbies & interests and his goals & aspirations.</p><p> It also includes a page that provides information about Internet and Website development, which is a part of his first assignment. There are also placeholders for both of his future assignments.</p>
+<div class="container">
+      <img src="img/homepagejacket.jpg" alt="Picture of Nikhil" class="tablepic1">
+      <img src="img/homepagehat.jpg" alt="Picture of Nikhil" class="tablepic2">
+     </div>
+   </div>
+<!-- About Me Page -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+</script>
+<footer>
+  <p>
+    This website was created for an IST Assignment at <a href="https://hurlstone-h.schools.nsw.gov.au/"> Hurlstone Agricultural High School </a> by &copy; Nikhil Warrier
+  </p>
+</footer>
+</body>
+</html>

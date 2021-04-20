@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nikhil Warrier | Assessment Page 2</title>
+	<link rel="stylesheet" type="text/css" href="Nikhil.css">
+</head>
+<body>
+<div id="navbar">
+  <a href="home.html">Home</a>
+  <a href="aboutme.html">About Nikhil</a>
+  <a href="apage1.html">Assignment Page 1</a>
+  <a href="apage2.html">Assignment Page 2</a>
+  <a href="apage3.html">Assignment Page 3</a>
+<!-- Home Page -->
+</div>
+<p class="tiny"><i>This page has been left blank for future assignments</i></p>
+<p class="white">hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br></p>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+  <p>
+    This website was created for an IST Assignment at <a href="https://hurlstone-h.schools.nsw.gov.au/"> Hurlstone Agricultural High School </a> by &copy; Nikhil Warrier
+  </p>
+</footer>
+
+</body>
+</html>
